@@ -4,11 +4,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DelfiFirstTest {
 
-    @Test
-    public void delfiFirstTitleTest() {
-        System.setProperty("webdriver.chrome.driver", "C:/Users/jevgenijs.cernuha/IdeaProjects/chromedriver");
+@Test
+public void delfiFirstTitleTest() {
+        System.setProperty("webdriver.chrome.driver", "C:/Users/jevgenijs.cernuha/IdeaProjects/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://delfi.lv");
-    }
-}
+        }
+        }
